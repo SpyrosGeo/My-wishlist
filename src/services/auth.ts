@@ -2,7 +2,7 @@ import pb from "../utils";
 
 export const login = async (
   username: string,
-  password: string
+  password: string,
 ): Promise<void> => {
   try {
     const authData = await pb
